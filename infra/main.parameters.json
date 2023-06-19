@@ -43,6 +43,18 @@
     },
     "storageResourceGroupName": {
       "value": "${AZURE_STORAGE_RESOURCE_GROUP}"
+    },
+    "appServiceAuthEnabled": {
+      "value": true
+    },
+    "appServiceAuthSettingsClientId": {
+      "value": "${APP_SERVICE_AUTH_SETTINGS_CLIENT_ID}"
+    },
+    "appServiceAuthSettingsClientSecret": {
+      "value": "${APP_SERVICE_AUTH_SETTINGS_CLIENT_SECRET}"
+    },
+    "backendServiceName": {
+      "value": "${APP_SERVICVE_NAME}"
     }
   }
 }
