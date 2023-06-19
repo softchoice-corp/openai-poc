@@ -25,7 +25,7 @@ const Layout = () => {
                                     Ask a question
                                 </NavLink>
                             </li> */}
-                            <li className={styles.headerLogo}>
+                            <li className={styles.headerNavNoMargin}>
                                 <a href="https://www.softchoice.com" target={"_blank"} title="Softchoice">
                                     <img
                                         src={softchoice}
@@ -33,7 +33,7 @@ const Layout = () => {
                                         aria-label="Link to Softchoice"
                                         width="96px"
                                         height="20px"
-                                        className={styles.githubLogo}
+                                        style={{ alignSelf: 'center' }}
                                     />
                                 </a>
                             </li>

@@ -136,7 +136,7 @@ const Chat = () => {
                         <div className={styles.chatEmptyState}>
                             <BotSparkleFilled fontSize={"120px"} primaryFill={"rgba(255, 80, 2, 1)"} aria-hidden="true" aria-label="Chat logo" />
                             <h1 className={styles.chatEmptyStateTitle}>SoftchoiceGPT</h1>
-                            <h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>
+                            <h2 className={styles.chatEmptyStateSubtitle}>Ask about Lockheed Martin Skunk Works aircraft development</h2>
                             <ExampleList onExampleClicked={onExampleClicked} />
                         </div>
                     ) : (
@@ -181,7 +181,7 @@ const Chat = () => {
                     <div className={styles.chatInput}>
                         <QuestionInput
                             clearOnSend
-                            placeholder="Type a new question (e.g. does my plan cover annual eye exams?)"
+                            placeholder="Type a new question"
                             disabled={isLoading}
                             onSend={question => makeApiRequest(question)}
                         />
