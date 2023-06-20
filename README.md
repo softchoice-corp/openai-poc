@@ -7,7 +7,7 @@ This sample demonstrates a few approaches for creating ChatGPT-like experiences 
 
 The repo includes sample data so it's ready to try end to end. In this sample application we use a fictitious company called Contoso Electronics, and the experience allows its employees to ask questions about the benefits, internal policies, as well as job descriptions and roles.
 
-![RAG Architecture](docs/appcomponents.png)
+![RAG Architecture](docs/poc-services.png)
 
 ## Features
 
@@ -16,7 +16,7 @@ The repo includes sample data so it's ready to try end to end. In this sample ap
 * Shows possible approaches for data preparation, prompt construction, and orchestration of interaction between model (ChatGPT) and retriever (Cognitive Search)
 * Settings directly in the UX to tweak the behavior and experiment with options
 
-![Chat screen](docs/chatscreen.png)
+![Chat screen](docs/new-ui.png)
 
 ## Getting Started
 
